@@ -72,7 +72,7 @@
 					var post 	= $(this),
 						bg 		= post.data('bg');
 
-					post.css( 'background-image', 'url(bg + ')' );
+					post.css( 'background-image', 'url(' + bg + ')' );
 
 				});
 
@@ -118,6 +118,4 @@
 				});
 
 	});
-var bgImageUrl = $('.bg-img').attr('data-bg');
-$('.bg-img') .bg-img(bgImageUrl,{fade: 500});
-})(jQuery);
+
