@@ -118,5 +118,6 @@
 				});
 
 	});
-
+var bgImageUrl = $('.bg-img').attr('data-bg');
+$('.bg-img') .bg-img(bgImageUrl,{fade: 500});
 })(jQuery);
