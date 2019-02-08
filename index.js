@@ -37,3 +37,7 @@ $(document).on("click", ".img-c.active", function() {
     copy.remove();
   }, 500)
 })
+
+
+var bgImageUrl = $('.js-backstretch').attr('data-bg');
+$('.js-backstretch').backstretch(bgImageUrl,{fade: 500});
